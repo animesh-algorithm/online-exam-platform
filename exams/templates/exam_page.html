@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ exam.title }}</h1>
+    <br>
+    {% for question in questions %}
+        <h2>{{ question.question }}</h2>
+        {% for option in options %}
+            {% if option.question.id == question.id %}
+                    <input type="radio" value="{{ option.option }}">{{ option.option }}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
