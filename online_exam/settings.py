@@ -78,8 +78,11 @@ WSGI_APPLICATION = 'online_exam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'OEP_DB',
+        'HOST': 'mongodb+srv://admin:F@qtv420**@oepcluster.50kfv.mongodb.net/OEP_DB?retryWrites=true&w=majority',
+        'USER':'admin',
+        'PASSWORD': 'F@qtv420**'
     }
 }
 
