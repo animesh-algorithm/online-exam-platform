@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)p9$3!l)=nan5(80w+w8va_i%lrb_wjj34p-ni(3quhv*68b53
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['eazyexam.herokuapp.com', 'localhost']
 
 
 # Application definition
