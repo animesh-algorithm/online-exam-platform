@@ -78,11 +78,12 @@ WSGI_APPLICATION = 'online_exam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'OEP_DB',
-        'HOST': 'mongodb+srv://admin:F@qtv420**@oepcluster.50kfv.mongodb.net/OEP_DB?retryWrites=true&w=majority',
-        'USER':'admin',
-        'PASSWORD': 'F@qtv420**'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sajtkbyw',
+        'USER': 'sajtkbyw',
+        'PASSWORD': 'ea7ZsMOPaut3K6_AWc3IT8Z80fo1-xQm',
+        'HOST': 'batyr.db.elephantsql.com',
+        'PORT': '5432'
     }
 }
 
